@@ -1,19 +1,33 @@
 
-# 🎮 Desafio: Jogo da Forca
+# 📘 Atividade: Jogo da Forca
 
-Construa o clássico jogo de adivinhar palavras usando strings, loops e entrada de dados do usuário em Python.
+## 🎯 Objetivo
 
-## 🎯 O Que Você Vai Construir
+Desenvolver um jogo da Forca em Python para praticar manipulação de strings, listas, condicionais, loops e entrada de dados do usuário.
 
-Crie um jogo da Forca onde os jogadores adivinham letras para revelar uma palavra oculta antes de esgotar as tentativas.
+## 📝 Tarefas
 
-**Habilidades praticadas:** Manipulação de strings, loops, condicionais, seleção aleatória
+### 🛠️ Implementar a lógica da partida
 
-## ✅ Requisitos Obrigatórios
+#### Descrição
+Crie a lógica principal do jogo: selecione uma palavra aleatória de uma lista predefinida e permita que o jogador tente descobri-la, uma letra por vez.
 
-Seu jogo deve:
-- Selecionar palavras aleatoriamente de uma lista predefinida
-- Aceitar palpites de letras e mostrar o progresso atual (formato _ _ _)
-- Rastrear tentativas incorretas restantes
-- Encerrar quando a palavra for adivinhada ou as tentativas esgotarem
-- Exibir mensagens de vitória/derrota
+#### Requisitos
+O programa concluído deve:
+
+- Selecionar aleatoriamente uma palavra de uma lista predefinida.
+- Exibir cada letra ainda não descoberta como um sublinhado, mantendo visíveis as letras acertadas.
+- Registrar cada palpite e reduzir o número de tentativas restantes quando a letra não estiver na palavra.
+- Encerrar a partida quando a palavra for descoberta ou quando as tentativas restantes chegarem a zero.
+
+### 🛠️ Tratar palpites e concluir a partida
+
+#### Descrição
+Complete a interação com o jogador, validando os palpites e informando claramente o resultado da partida.
+
+#### Requisitos
+O programa concluído deve:
+
+- Aceitar um palpite de uma única letra por vez.
+- Rejeitar entradas vazias, com mais de um caractere ou que não sejam letras, sem consumir uma tentativa.
+- Informar quando o jogador venceu ou perdeu e, em caso de derrota, revelar a palavra escolhida.
