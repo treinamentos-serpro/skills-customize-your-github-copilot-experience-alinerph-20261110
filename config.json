@@ -72,6 +72,13 @@
       "description": "Organize arquivos por extensão usando pathlib, repetição e cópias seguras em Python.",
       "path": "assignments/file-organizer",
       "dueDate": "2026-11-17"
+    },
+    {
+      "id": "automated-backups",
+      "title": "Backups Automatizados com Verificação",
+      "description": "Automatize backups, valide integridade com SHA-256 e registre resultados.",
+      "path": "assignments/automated-backups",
+      "dueDate": "2026-11-17"
     }
   ]
 }
